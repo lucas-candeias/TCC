@@ -128,14 +128,15 @@ section.topo-do-site .flex {
 
 .meioSite {
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
     background-image: url("../IMG/imgMeioSite.png");
     background-size: cover;
-    background-position: center;
+    background-position: left;
     color: white;
     text-align: left;
     position: relative;
     padding: 30px 0; /* Aumenta o padding para criar espaço */
+    height: 120%;
 }
 
 .meioSite::before { /* Overlay semi-transparente */
@@ -161,13 +162,13 @@ section.topo-do-site .flex {
 .image-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    /*gap: 20px;*/
     width: 40%; /* Define a largura do container de imagens */
 }
 
 .image-container img {
     flex: 1 0 100%; /* Faz a primeira imagem ocupar 100% da largura na primeira linha */
-    height: 200px; /* Ajuste a altura conforme necessário */
+    /*height: 200px; /* Ajuste a altura conforme necessário */
     object-fit: cover;
 }
 
@@ -178,13 +179,58 @@ section.topo-do-site .flex {
 
 .text-container {
     width: 50%; /* Ajuste a largura do container de texto conforme necessário */
-    text-align: left; /* Alinha o texto à esquerda dentro do container de texto */
+    text-align: right; /* Alinha o texto à esquerda dentro do container de texto */
 }
 
 .text-container {
-    width: 55%; /* Ajuste a largura do container de texto */
-    margin-left: 50px; /* Adiciona um espaço à esquerda do texto */
+    width: 50%; /* Ajuste a largura do container de texto */
+    /*margin-left: 30px; /* Adiciona um espaço à esquerda do texto */
     text-align: left;
 }
 
+.imgOperario {
+    border-radius: 5em;
+    height: 50%;
+    width: 80%;
+    margin-left: 3em;
+}
 
+.imgMao {
+    float: left;
+    border-radius: 5em;
+    width: 50%;
+    height: 150%;
+}
+
+.imgMata {
+    float: right;
+    border-radius: 5em;
+    width: 50%;
+    height: 150%;
+
+}
+
+#txt1 {
+    padding-bottom: 2em;
+    font-size: 1.5em;
+}
+
+#txt2 {
+    padding-bottom: 2em;
+    font-size: 1.5em;
+}
+
+#txt3 {
+    padding-bottom: 2em;
+    font-size: 1.5em;
+}
+
+#txt4 {
+    padding-bottom: 2em;
+    font-size: 1.5em;
+}
+
+#txt5 {
+    padding-bottom: 2em;
+    font-size: 1.5em;
+}
